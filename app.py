@@ -19,5 +19,6 @@ def contact():
 def projects():
     return render_template("projects.html",title="projects",user=user_data)
 
+
 if __name__ == "__main__":
     app.run(debug=True)
